@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.make{
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(46, 46, 221);
+  position: relative;
+ 
+}
+.box1{
+  /* background-color: rgb(129, 129, 173); */
+  position: absolute;
+  right: 8%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px; 
+  z-index: 0;
+}
+.semi-circle {
+  width: 200px; 
+  height: 100px;
+  /* background: blue;  */
+  border-top-left-radius: 100px; 
+  border-top-right-radius: 100px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  z-index: 10;
+ 
+}
+.text{
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+.main{
+  border-radius: 15px;
+}
+.hover-tilt:hover {
+  transform: perspective(500px) translateY(-5px) rotateX(-10deg);
+  transition: transform 0.5s ease-out;
+}
+
+.hover-tilt {
+  transform-origin: bottom;
+}
+.contact{
+  border: 1px solid rgb(201, 199, 199);
+}
+input{
+  border: 1px solid rgb(180, 180, 180);
+}
+.mail{
+  border-radius: 30px;
+}
+input::placeholder{
+  padding-left: 30px;
+  color: rgb(110, 108, 108);
+  font-weight: 500;
+}
+.val{
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+
